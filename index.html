@@ -554,38 +554,8 @@
           startAnimation();
         });
 
-        // Add controls if needed (optional)
-        const controls = document.createElement("div");
-        controls.style.position = "fixed";
-        controls.style.bottom = "20px";
-        controls.style.right = "20px";
-        controls.style.zIndex = "10000";
-        controls.style.display = "flex";
-        controls.style.gap = "10px";
-
-        const startBtn = document.createElement("button");
-        startBtn.textContent = "Start Petals";
-        startBtn.style.padding = "8px 15px";
-        startBtn.style.background = "#FFD700";
-        startBtn.style.color = "#333";
-        startBtn.style.border = "none";
-        startBtn.style.borderRadius = "5px";
-        startBtn.style.cursor = "pointer";
-        startBtn.addEventListener("click", startAnimation);
-
-        const stopBtn = document.createElement("button");
-        stopBtn.textContent = "Stop Petals";
-        stopBtn.style.padding = "8px 15px";
-        stopBtn.style.background = "#FF4500";
-        stopBtn.style.color = "white";
-        stopBtn.style.border = "none";
-        stopBtn.style.borderRadius = "5px";
-        stopBtn.style.cursor = "pointer";
-        stopBtn.addEventListener("click", stopAnimation);
-
-        controls.appendChild(startBtn);
-        controls.appendChild(stopBtn);
-        document.body.appendChild(controls);
+        
+        
       });
       // Music functionality
       const audio = document.getElementById("bg-music");
