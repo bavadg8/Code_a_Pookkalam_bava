@@ -354,9 +354,9 @@
       /* Music button */
       #music-btn {
         position: absolute;
-        top: 18000%;
-        right: 5000%;
-        padding: 12px 20px;
+        top: 20000%;
+        right: 1500%;
+        padding: 12px 30px;
         border: none;
         border-radius: 25px;
         background: linear-gradient(to right, #ff9800, #ff5722);
@@ -366,7 +366,12 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         transition: all 0.3s ease;
         z-index: 1000;
+        white-space: nowrap; /* keep everything in one line */
+        display: inline-flex; /* better handling of icon + text */
+        align-items: center; /* vertically center emoji + text */
+        gap: 8px; /* little spacing between emoji and text */
       }
+
       #music-btn:hover {
         transform: translateY(-3px);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
@@ -375,7 +380,6 @@
   </head>
   <body>
     <div class="container">
-      
       <div class="diamond-shield"></div>
       <div class="diamond-shield"></div>
       <div class="diamond-shield"></div>
@@ -419,7 +423,6 @@
 
       <div class="circle4"></div>
       <div class="circle5"></div>
-      
     </div>
     <div class="container1">
       <div class="diamond-shield1"></div>
@@ -439,17 +442,13 @@
       <img src="gar1_remove.png" alt="Flower Garland" />
       <img src="gar1_remove.png" alt="Flower Garland" />
       <img src="gar1_remove.png" alt="Flower Garland" />
-      
     </div>
     <div class="container2">
       <!-- Music button -->
-    <button id="music-btn">🔊 Play Music</button>
-
+      <button id="music-btn"><span>🔊</span> <span>Play Music</span></button>
     </div>
 
     <div class="petals-container" id="petals-container"></div>
-
-    
 
     <!-- Background music -->
     <audio id="bg-music" loop autoplay>
@@ -571,9 +570,6 @@
           createPetals(petalCount);
           startAnimation();
         });
-
-        
-        
       });
       // Music functionality
       const audio = document.getElementById("bg-music");
