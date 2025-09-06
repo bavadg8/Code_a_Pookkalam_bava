@@ -44,6 +44,7 @@
         width: 200px;
         height: 200px;
         animation: rotateFlower 30s linear infinite;
+        background-color: aquamarine;
       }
       @keyframes rotateFlower {
         from {
@@ -105,6 +106,7 @@
         height: 1px;
         animation: rotateFlower1 30s linear infinite;
         z-index: 1;
+        background-color: aqua;
       }
 
       .diamond-shield1 {
@@ -340,11 +342,20 @@
         }
       }
 
+      .container2 {
+        position: relative;
+        width: 1px;
+        height: 1px;
+        animation: rotateFlower1 30s linear infinite;
+        z-index: 1;
+        background-color: #b21f1f;
+      }
+
       /* Music button */
       #music-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
+        position: absolute;
+        top: 18000%;
+        right: 5000%;
         padding: 12px 20px;
         border: none;
         border-radius: 25px;
@@ -364,6 +375,7 @@
   </head>
   <body>
     <div class="container">
+      
       <div class="diamond-shield"></div>
       <div class="diamond-shield"></div>
       <div class="diamond-shield"></div>
@@ -407,6 +419,7 @@
 
       <div class="circle4"></div>
       <div class="circle5"></div>
+      
     </div>
     <div class="container1">
       <div class="diamond-shield1"></div>
@@ -426,12 +439,17 @@
       <img src="gar1_remove.png" alt="Flower Garland" />
       <img src="gar1_remove.png" alt="Flower Garland" />
       <img src="gar1_remove.png" alt="Flower Garland" />
+      
+    </div>
+    <div class="container2">
+      <!-- Music button -->
+    <button id="music-btn">🔊 Play Music</button>
+
     </div>
 
     <div class="petals-container" id="petals-container"></div>
 
-    <!-- Music button -->
-    <button id="music-btn">🔊 Play Music</button>
+    
 
     <!-- Background music -->
     <audio id="bg-music" loop autoplay>
