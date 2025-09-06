@@ -1,29 +1,19 @@
-# 🌸 Code-a-Pookkalam
+# 🌸 Code-a-Pookkalam  
 
-Ever wanted to make a traditional Pookkalam but your flower-arranging skills are... let's say "questionable"? 
-Well, now you can create a stunning digital pookkalam using the ancient art of HTML and CSS!
+During my Onam holidays, I joined the **TinkerHub Code-a-Pookkalam** challenge and created a **digital pookalam** 🌼.  
 
-## Getting Started 🚀
+## ✨ Explore the Project  
+🔗 **[View Pookkalam Website](https://bavadg8.github.io/Code_a_Pookkalam_bava/)**  
 
-### 1. Fork this repository
-Click the **Fork** button at the top of this page
+> 💡 P.S: Don’t forget to click the **"Play Music"** button for a festive vibe 🎶  
 
-### 2. Clone your fork
-```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
-```
+## 📸 Screenshots  
 
-### 3. Start coding!
-Edit `styles.css` and create your masterpiece!
+Here are some glimpses of my digital pookkalam:  
 
-## Resources 📚
-
-For detailed instructions and guidelines, please refer to:
-
-- **[Complete guide to Code a Pookkalam](https://code-a-pookalam-guide.netlify.app/)**
-- **[Learn Git/Github the fun way](https://thecompletegitguide.netlify.app/)**
+![Screenshot 1](screenshots/screenshot1.png)  
+![Screenshot 2](screenshots/screenshot2.png)  
 
 ---
 
-**Happy coding!** 🎉👨‍💻👩‍💻
+🌼 Wishing you all a joyful **Onam** and **happy coding!** 🎉💻  
