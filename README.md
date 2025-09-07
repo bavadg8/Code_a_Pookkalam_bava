@@ -1,6 +1,6 @@
 # 🌸 Code-a-Pookkalam  
 
-During my Onam holidays, I joined the **TinkerHub Code-a-Pookkalam** challenge and created a **digital pookalam** 🌼.  
+During my Onam holidays, I joined the ** Code-a-Pookkalam** challenge and created a **digital pookalam** 🌼.  
 
 ## ✨ Explore the Project  
 🔗 **[View Pookkalam Website](https://bavadg8.github.io/Code_a_Pookkalam_bava/)**  
